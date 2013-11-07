@@ -1,1 +1,3 @@
-class Stackstacker.Models.BoardJ extends Backbone.Model
+var Board = Backbone.Model.extend({
+  urlRoot: '/boards'
+})

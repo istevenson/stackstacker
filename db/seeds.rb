@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# test_board = Board.create(name: 'Test Board', description: 'Best Board Ever', id: 2)
+# Stack.create(name: 'Stack 1', board_id: test_board.id)
